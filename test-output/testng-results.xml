@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-10T23:00:49 IST" name="Default suite" finished-at="2025-03-10T23:01:18 IST" duration-ms="29011">
+  <suite started-at="2025-03-13T15:44:14 IST" name="Default suite" finished-at="2025-03-13T15:44:43 IST" duration-ms="28429">
     <groups>
     </groups>
-    <test started-at="2025-03-10T23:00:49 IST" name="Default test" finished-at="2025-03-10T23:01:18 IST" duration-ms="29011">
+    <test started-at="2025-03-13T15:44:14 IST" name="Default test" finished-at="2025-03-13T15:44:43 IST" duration-ms="28429">
       <class name="com.thetestingacademy.ATB6xWebAutomationFramework.TestVWOLogin_PF_DriverManager">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thetestingacademy.ATB6xWebAutomationFramework.TestVWOLogin_PF_DriverManager@68c9d179]" started-at="2025-03-10T23:00:50 IST" name="setUp" finished-at="2025-03-10T23:01:02 IST" duration-ms="12709" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thetestingacademy.ATB6xWebAutomationFramework.TestVWOLogin_PF_DriverManager@68c9d179]" started-at="2025-03-13T15:44:14 IST" name="setUp" finished-at="2025-03-13T15:44:23 IST" duration-ms="8745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginNegativeVWO()[pri:0, instance:com.thetestingacademy.ATB6xWebAutomationFramework.TestVWOLogin_PF_DriverManager@68c9d179]" started-at="2025-03-10T23:01:03 IST" name="testLoginNegativeVWO" finished-at="2025-03-10T23:01:18 IST" duration-ms="15485" status="FAIL">
+        <test-method signature="testLoginNegativeVWO()[pri:0, instance:com.thetestingacademy.ATB6xWebAutomationFramework.TestVWOLogin_PF_DriverManager@68c9d179]" started-at="2025-03-13T15:44:24 IST" name="testLoginNegativeVWO" finished-at="2025-03-13T15:44:43 IST" duration-ms="18932" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#login\-username"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14f5fe774e1095a73425eebb2fdd85f8, findElement {value=login-username, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53694/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14f5fe774e1095a73425eebb2fdd85f8]]>
+Command: [5de4f527dc871db30b04da39541f6f56, findElement {value=login-username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54645/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5de4f527dc871db30b04da39541f6f56]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#login\-username"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14f5fe774e1095a73425eebb2fdd85f8, findElement {value=login-username, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53694/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14f5fe774e1095a73425eebb2fdd85f8
+Command: [5de4f527dc871db30b04da39541f6f56, findElement {value=login-username, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54645}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54645/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5de4f527dc871db30b04da39541f6f56
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
